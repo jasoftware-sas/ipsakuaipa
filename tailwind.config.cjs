@@ -15,7 +15,14 @@ module.exports = {
         customGrayText: "rgb(174, 178, 183)",
         customDarkBgTransparent: "rgb(31, 32, 35, 0.7)",
         customDarkBgTransparentDarker: "rgb(0,0,0,0.5)",
-        customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)"  
+        customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)",
+        customWhite: "rgb(253, 255, 252)",
+        customWhite2: "rgb(225, 225, 225)",
+        customRed: "rgb(229, 50, 44)",
+        customRed2: "rgb(200, 31, 25)",
+        customGreen: "rgb(124, 190, 101)",
+        customGreen2: "rgb(121, 189, 97)",
+        customYellow: "rgb(253, 196, 38)",
       },
       fontFamily: {
         Inter: "Inter",
