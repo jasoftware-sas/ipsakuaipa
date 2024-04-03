@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 
+import imagen2 from "/img2.png";
+import imagen3 from "/img3.png";
+
 export const About = () => {
   return (
     <section
@@ -26,7 +29,7 @@ export const About = () => {
                     <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
                         <div className="mb-4 py-3 pl-3 pr-2 rounded">
                             <img
-                            src="/public/img2.png"
+                            src={imagen2}
                             alt="Vista de la sala de espera"
                             className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                             />
@@ -39,7 +42,7 @@ export const About = () => {
                     <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
                         <div className="mb-4 py-3 pl-3 pr-2 rounded">
                             <img
-                            src="/public/img3.png"
+                            src={imagen3}
                             alt="Vista de la sala de espera"
                             className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                             />
