@@ -66,7 +66,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 text-center">
-            &copy; { new Date().getFullYear() }. Hecho con el ❤️. <a className="text-customGreen2" href="http://www.jasoftwaresas.com/" target="_blank">Jasoftware SAS</a>
+            Hecho con el ❤️. <a className="text-customGreen2" href="http://www.jasoftwaresas.com/" target="_blank">Jasoftware SAS</a>
           </p>
         </div>
       </div>
