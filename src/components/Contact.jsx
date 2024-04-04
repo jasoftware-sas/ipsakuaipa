@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import maps from "../../public/maps.png";
+
 export const Contact = () => {
     return (
         <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 relative">
@@ -35,7 +37,7 @@ export const Contact = () => {
                     <div className="w-full pt-5">
                         <a href="https://maps.app.goo.gl/xR1NLnkav8j7eyiC8" target="_blank">
                         <img
-                            src="/public/maps.png"
+                            src={maps}
                             className="cursor-pointer"
                         />
                         </a>

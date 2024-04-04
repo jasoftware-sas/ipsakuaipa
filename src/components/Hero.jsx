@@ -2,7 +2,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import imagen1 from "/img1.png";
+import imagen1 from "../../public/img1.png";
+import Banner from "../../public/Banner.png";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,7 +19,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/public/Banner.png" className="aspect-video h-auto max-w-full"/>
+          <img src={Banner} className="aspect-video h-auto max-w-full"/>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
