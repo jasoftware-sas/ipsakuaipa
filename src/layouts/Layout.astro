@@ -6,6 +6,10 @@ import "@fontsource/inter/700.css";
 import "@fontsource/inter/800.css";
 import "@fontsource/inter/900.css";
 
+import favicon_apple_touch from "../../public/apple-touch-icon.png"
+import favicon_32x32 from "../../public/favicon-32x32.png"
+import favicon_16x16 from "../../public/favicon-16x16.png"
+import manifest from "../../public/site.webmanifest"
 export interface Props {
   title: string;
 }
@@ -18,10 +22,10 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href={favicon_apple_touch}>
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon_32x32}>
+    <link rel="icon" type="image/png" sizes="16x16" href={favicon_16x16}>
+    <link rel="manifest" href={manifest}>
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
