@@ -4,6 +4,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: 'https://selpeca.github.io',
-  base: 'ips_akuaipa'
+  site: 'https://jasoftware-sas.github.io',
+  base: 'ipsakuaipa'
 });
